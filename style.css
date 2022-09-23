@@ -1,0 +1,65 @@
+body {
+    background-color: #e5d4ed;
+    color: #000000;
+    font-family: linotype-didot, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1em;
+    margin: 0;
+}
+
+img {
+    border: 5px solid #7c6885;
+}
+
+a:link {
+    color: #b59fbe;
+}
+  
+a:visited {
+    color: #7c6885;
+}
+  
+a:hover {
+    color: #fff;
+}
+
+hr {
+    border-top: 1px solid #7c6885;
+}
+
+h1{
+    font-family: linotype-didot, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+    font-family: linotype-didot-headline, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    font-family: linotype-didot, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4{
+    font-family: linotype-didot, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h5{
+    font-family: linotype-didot, serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h6{
+    font-family: linotype-didot, serif;
+    font-weight: 100;
+    font-style: normal;
+}
