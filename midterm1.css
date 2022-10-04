@@ -1,0 +1,95 @@
+/* desktop */
+@media only screen and (min-width: 401px) and (max-width: 1900px){
+}
+
+/* phone */
+@media only screen and (max-width: 400px){
+}
+
+body {
+    background-color: #e5d4ed;
+    color: #000000;
+    font-family: linotype-didot, serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 1em;
+    margin: 0;
+    text-align: left;
+}
+
+nav {
+    background-color:#b59fbe;
+    border: 5px solid #7c6885;
+    height: 30px;
+    padding: .5em;
+    top: 0;
+    position: sticky
+}
+  
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+  
+nav a {
+    color: #7c6885;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+img {
+    border: 2px solid #7c6885;
+    float: right;
+    margin-left: 5px;
+}
+
+a:link {
+    color: #000000;
+}
+  
+a:visited {
+    color: #7c6885;
+}
+  
+a:hover {
+    color: #fff;
+}
+
+h1{
+    font-family: linotype-didot, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+hr {
+    border-top: 3px solid #7c6885;
+}
+
+div{
+    border: 5px solid #7c6885;
+    background-color: #b59fbe;
+    padding: 10px;
+    margin: 0;
+    width: 1300px;
+    height: 40px;
+    font-size: 40px;
+    text-align: center; margin: auto;
+}
+
+h2{
+    font-family: linotype-didot-headline, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h3{
+    font-family: linotype-didot, serif;
+    font-weight: 400;
+    font-style: normal;
+}
