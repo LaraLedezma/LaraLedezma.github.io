@@ -71,16 +71,18 @@ h6{
     width: 900px;
     padding: .5em;
     top: 0;
-    position: sticky
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 .nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
     justify-content: space-evenly;
     font-size: 30px;
+    display: flex;
 }
   
 .nav a {
@@ -206,7 +208,7 @@ header{
     padding: 10px;
     margin: 0;
     width: 600px;
-    height: 15x;
+    height: 15px;
     font-size: 20px;
     text-align: center; margin: auto;
 }
