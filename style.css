@@ -139,6 +139,13 @@ hr {
     margin-left: 550px;
 }
 
+.grid-container2{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+
 /* page 2 */
 .introduction{
     background-color: #e5d4ed;
