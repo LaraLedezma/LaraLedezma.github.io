@@ -50,9 +50,15 @@ div{
     text-align: center; margin: auto;
 }
 
-img {
+.image1 {
     border: 2px solid #7c6885;
     float: left;
+    margin-left: 5px;
+}
+
+.image2 {
+    border: 2px solid #7c6885;
+    float: right;
     margin-left: 5px;
 }
 
@@ -76,7 +82,6 @@ h1{
     font-family: linotype-didot, serif;
     font-weight: 700;
     font-style: normal;
-    text-align: center;
 }
 
 h2{
@@ -131,4 +136,58 @@ nav a {
     color: #7c6885;
     text-decoration: none;
     padding: .5em 1em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+img {
+    border: 3px solid #7c6885;
+    margin: auto;
+    align-items: center;
+  }
+
+.main{
+    font-size: 35px;
+    text-align: right;
+}
+
+header{
+    border: 5px solid #7c6885;
+    background-color: #b59fbe;
+    padding: 10px;
+    margin: 0;
+    width: 600px;
+    height: 15x;
+    font-size: 20px;
+    text-align: center; margin: auto;
+}
+
+.experiencecolumn{
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.experiencercolumn2{
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.educationandskillsrow{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
