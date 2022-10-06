@@ -139,13 +139,6 @@ hr {
     margin-left: 550px;
 }
 
-.grid-container2{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    padding: 10px;
-}
-
 /* page 2 */
 .introduction{
     background-color: #e5d4ed;
@@ -189,13 +182,15 @@ img {
 /* page 4 */
 .experiencecolumn{
     flex: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .experiencerow{
     display: flex;
 }
 
-.educationandskillscolumn{
+.educationcolumn{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -203,6 +198,12 @@ img {
 
 .educationrow{
     display: flex;
+}
+
+.skillscolumn{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 .skillsrow{
