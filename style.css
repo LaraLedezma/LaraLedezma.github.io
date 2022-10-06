@@ -44,22 +44,23 @@ div{
     background-color: #b59fbe;
     padding: 10px;
     margin: 0;
-    width: 1300px;
-    height: 40px;
-    font-size: 40px;
+    width: 1290px;
+    height: 60px;
+    font-size: 60px;
     text-align: center; margin: auto;
 }
 
 .image1 {
     border: 2px solid #7c6885;
     float: left;
-    margin-left: 5px;
+    margin-left: 150px;
+    margin-top: 10px;
 }
 
 .image2 {
     border: 2px solid #7c6885;
     float: right;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 a:link {
@@ -160,9 +161,17 @@ img {
     align-items: center;
   }
 
+.homeicons{
+    margin-left: 10px;
+    margin-right: 40px;
+    padding-top: 20px;
+    border: none;
+}
+
 .main{
     font-size: 35px;
-    text-align: right;
+    text-align: left;
+    margin-left: 550px;
 }
 
 header{
