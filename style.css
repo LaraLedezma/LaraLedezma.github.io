@@ -119,8 +119,8 @@ hr {
 /* page 1 */
 .grid-container2{
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    grid-template-columns: 4fr;
     padding: 10px;
 }
 
