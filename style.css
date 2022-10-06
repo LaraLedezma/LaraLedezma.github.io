@@ -1,34 +1,23 @@
 /* desktop */
 @media only screen and (min-width: 401px) and (max-width: 1900px){
-    .grid{
-        margin: 0 auto;
-        padding: 0 10px;
+    .grid-container{
         display: grid;
-        grid-template-columns: 
-        "a" 1fr 
-        "b" 3fr;
-        grid-row: 
-        "a" 1fr 
-        "b" 1fr;
-        gap: 3px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 3fr;
+        padding: 10px;
     }
 }
 /* phone */
 @media only screen and (max-width: 400px){
-    .grid{
-        margin: 0 auto;
-        padding: 0 10px;
+    .grid-container{
         display: grid;
-        grid-template-columns: 
-        "a" 1fr 
-        "b" 3fr;
-        grid-row: 
-        "a" 1fr 
-        "b" 1fr;
-        gap: 3px;
+        grid-template-rows: 1fr;
+        grid-template-columns: 3fr;
+        padding: 10px;
     }
 }
 
+/* same across pages */
 body {
     background-color: #e5d4ed;
     color: #000000;
@@ -37,46 +26,6 @@ body {
     font-style: normal;
     padding: 1em;
     margin: 0;
-}
-
-div{
-    border: 5px solid #7c6885;
-    background-color: #b59fbe;
-    padding: 10px;
-    margin: 0;
-    width: 1290px;
-    height: 60px;
-    font-size: 60px;
-    text-align: center; margin: auto;
-}
-
-.image1 {
-    border: 2px solid #7c6885;
-    float: left;
-    margin-left: 150px;
-    margin-top: 10px;
-}
-
-.image2 {
-    border: 2px solid #7c6885;
-    float: right;
-    margin-left: 10px;
-}
-
-a:link {
-    color: #b59fbe;
-}
-  
-a:visited {
-    color: #7c6885;
-}
-  
-a:hover {
-    color: #fff;
-}
-
-hr {
-    border-top: 3px solid #7c6885;
 }
 
 h1{
@@ -115,16 +64,17 @@ h6{
     font-style: normal;
 }
 
-nav {
+.nav {
     background-color:#b59fbe;
     border: 5px solid #7c6885;
     height: 30px;
+    width: 900px;
     padding: .5em;
     top: 0;
     position: sticky
 }
   
-nav ul {
+.nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -133,33 +83,53 @@ nav ul {
     font-size: 30px;
 }
   
-nav a {
+.nav a {
     color: #7c6885;
     text-decoration: none;
     padding: .5em 1em;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+.heading{
+    border: 5px solid #7c6885;
+    background-color: #b59fbe;
+    padding: 10px;
+    margin: 0;
+    width: 1280px;
+    height: 60px;
+    font-size: 60px;
+    text-align: center; margin: auto;
 }
 
-.column {
-    flex: 50%;
-    padding: 0 4px;
+a:link {
+    color: #b59fbe;
 }
   
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
+a:visited {
+    color: #7c6885;
+}
+  
+a:hover {
+    color: #fff;
 }
 
-img {
-    border: 3px solid #7c6885;
-    margin: auto;
-    align-items: center;
-  }
+hr {
+    border-top: 3px solid #7c6885;
+}
+
+/* page 1 */
+.grid-container2{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+
+.image1 {
+    border: 2px solid #7c6885;
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
 
 .homeicons{
     margin-left: 10px;
@@ -174,6 +144,69 @@ img {
     margin-left: 550px;
 }
 
+/* page 2 */
+.introduction{
+    background-color: #e5d4ed;
+    color: #000000;
+    font-family: linotype-didot, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1em;
+    margin: 0;
+}
+
+.image2 {
+    border: 2px solid #7c6885;
+    float: right;
+    margin-left: 10px;
+}
+
+/* page 3 */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+img {
+    border: 3px solid #7c6885;
+    margin: auto;
+    align-items: center;
+  }
+
+/* page 4 */
+.experiencecolumn{
+    flex: 50%;
+}
+
+.experiencerow{
+    display: flex;
+}
+
+.educationandskillscolumn{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.educationrow{
+    display: flex;
+}
+
+.skillsrow{
+    display: flex;
+}
+
 header{
     border: 5px solid #7c6885;
     background-color: #b59fbe;
@@ -183,20 +216,4 @@ header{
     height: 15x;
     font-size: 20px;
     text-align: center; margin: auto;
-}
-
-.experiencecolumn{
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.experiencercolumn2{
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.educationandskillsrow{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
 }
