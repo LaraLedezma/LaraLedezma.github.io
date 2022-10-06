@@ -116,14 +116,7 @@ hr {
     border-top: 3px solid #7c6885;
 }
 
-/* page 1 */
-.grid-container2{
-    display: grid;
-    grid-template-rows: 4fr;
-    grid-template-columns: 4fr;
-    padding: 10px;
-}
-
+/*page 3*/
 .image1 {
     border: 2px solid #7c6885;
     float: left;
