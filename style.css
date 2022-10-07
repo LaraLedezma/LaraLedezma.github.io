@@ -422,7 +422,6 @@
     }
     
     header{
-        grid-area: c d;
         border: 5px solid #7c6885;
         background-color: #b59fbe;
         padding: 10px;
