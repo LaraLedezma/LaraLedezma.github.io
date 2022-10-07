@@ -1,261 +1,435 @@
 /* desktop */
 @media only screen and (min-width: 401px) and (max-width: 1900px){
-    .grid-container{
-        display: grid;
-        grid-template-rows: 
-        "nav" 1fr
-        "heading" 1fr
-        "main" 2fr;
-        grid-column: auto;
-        gap: 2px;
+    .flex-container{
+        flex: 3 200px;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 20px;
     }
 
-    .grid-container2{
-        display: grid;
-        grid-template-rows: 
-        "nav" 1fr
-        "heading" 1fr
-        "introduction" 2fr;
-        gap: 2px;
-      }
-
-    .grid-container3{
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: auto;
-        gap: 2px;
+    body {
+        background-color: #e5d4ed;
+        color: #000000;
+        font-family: linotype-didot, serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 1em;
+        margin: 0;
     }
-
-    .grid-container4{
-        display: grid;
-        grid-template-rows: 
-        "nav" 1fr
-        "heading" 1fr
-        "experiencerow" 1fr
-        "educationrow" 1fr
-        "skillsrow" 1fr;
-        grid-template-columns: 
-        "experiencecolumn experiencecolumn" 2fr
-        "educationcolumn skillscolumn" 2fr;
-        grid-column: 20px;
-        gap: 2px;
+    
+    h1{
+        font-family: linotype-didot, serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    h2{
+        font-family: linotype-didot-headline, serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    h3{
+        font-family: linotype-didot, serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    h4{
+        font-family: linotype-didot, serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    h5{
+        font-family: linotype-didot, serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+    
+    h6{
+        font-family: linotype-didot, serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    
+    .nav {
+        background-color:#b59fbe;
+        border: 5px solid #7c6885;
+        height: 30px;
+        width: 900px;
+        padding: .5em;
+        top: 0;
+        position: sticky;
+        margin-left: auto;
+        margin-right: auto;
     }
       
+    .nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        justify-content: space-evenly;
+        font-size: 30px;
+        display: flex;
+    }
+      
+    .nav a {
+        color: #7c6885;
+        text-decoration: none;
+        padding: .5em 1em;
+    }
+    
+    .heading{
+        border: 5px solid #7c6885;
+        background-color: #b59fbe;
+        padding: 10px;
+        margin: 0;
+        width: 1280px;
+        height: 60px;
+        font-size: 60px;
+        text-align: center; margin: auto;
+    }
+    
+    a:link {
+        color: #b59fbe;
+    }
+      
+    a:visited {
+        color: #7c6885;
+    }
+      
+    a:hover {
+        color: #fff;
+    }
+    
+    hr {
+        border-top: 3px solid #7c6885;
+    }
+    
+    /* page 1 */
+    .image1 {
+        border: 2px solid #7c6885;
+        float: left;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    
+    .homeicons{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        padding-top: 15px;
+        border: none;
+    }
+    
+    .main{
+        font-size: 35px;
+        text-align: left;
+        margin-left: 100px;
+        padding-top: 0;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex: auto;
+    }
+    
+    /* page 2 */
+    .introduction{
+        background-color: #e5d4ed;
+        color: #000000;
+        font-family: linotype-didot, serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 1em;
+        margin: 0;
+    }
+    
+    .image2 {
+        border: 2px solid #7c6885;
+        float: right;
+        margin-left: 10px;
+    }
+    
+    /* page 3 */
+    .column {
+        flex: 50%;
+        padding: 0 4px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+    
+    img {
+        border: 3px solid #7c6885;
+        margin: auto;
+        align-items: center;
+      }
+    
+    /* page 4 */
+    .experiencecolumn{
+        flex: 50%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .experiencerow{
+        display: flex;
+    }
+    
+    .educationcolumn{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    .educationrow{
+        display: flex;
+    }
+    
+    .skillscolumn{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    .skillsrow{
+        display: flex;
+    }
+    
+    header{
+        border: 5px solid #7c6885;
+        background-color: #b59fbe;
+        padding: 10px;
+        margin: 0;
+        width: 600px;
+        height: 15px;
+        font-size: 20px;
+        text-align: center; margin: auto;
+    }
 }
 /* phone */
 @media only screen and (max-width: 400px){
-    .grid-container{
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 3fr;
-        padding: 10px;
+    .flex-container{
+        flex: 1 200px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        gap: 20px;
     }
-}
 
-/* same across pages */
-body {
-    background-color: #e5d4ed;
-    color: #000000;
-    font-family: linotype-didot, serif;
-    font-weight: 400;
-    font-style: normal;
-    padding: 1em;
-    margin: 0;
-}
-
-h1{
-    font-family: linotype-didot, serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-h2{
-    font-family: linotype-didot-headline, serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h3{
-    font-family: linotype-didot, serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h4{
-    font-family: linotype-didot, serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-h5{
-    font-family: linotype-didot, serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-h6{
-    font-family: linotype-didot, serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.nav {
-    background-color:#b59fbe;
-    border: 5px solid #7c6885;
-    height: 30px;
-    width: 900px;
-    padding: .5em;
-    top: 0;
-    position: sticky;
-    margin-left: auto;
-    margin-right: auto;
-}
-  
-.nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    justify-content: space-evenly;
-    font-size: 30px;
-    display: flex;
-}
-  
-.nav a {
-    color: #7c6885;
-    text-decoration: none;
-    padding: .5em 1em;
-}
-
-.heading{
-    border: 5px solid #7c6885;
-    background-color: #b59fbe;
-    padding: 10px;
-    margin: 0;
-    width: 1280px;
-    height: 60px;
-    font-size: 60px;
-    text-align: center; margin: auto;
-}
-
-a:link {
-    color: #b59fbe;
-}
-  
-a:visited {
-    color: #7c6885;
-}
-  
-a:hover {
-    color: #fff;
-}
-
-hr {
-    border-top: 3px solid #7c6885;
-}
-
-/* page 1 */
-.image1 {
-    border: 2px solid #7c6885;
-    float: left;
-    margin-left: 40px;
-    margin-top: 10px;
-}
-
-.homeicons{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 10px;
-    padding-top: 15px;
-    border: none;
-}
-
-.main{
-    font-size: 35px;
-    text-align: left;
-    margin-left: 100px;
-    margin-top: 0;
-    padding-top: 0;
-    margin-bottom: 600px;
-}
-
-/* page 2 */
-.introduction{
-    background-color: #e5d4ed;
-    color: #000000;
-    font-family: linotype-didot, serif;
-    font-weight: 400;
-    font-style: normal;
-    padding: 1em;
-    margin: 0;
-}
-
-.image2 {
-    border: 2px solid #7c6885;
-    float: right;
-    margin-left: 10px;
-}
-
-/* page 3 */
-.column {
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-img {
-    border: 3px solid #7c6885;
-    margin: auto;
-    align-items: center;
-  }
-
-/* page 4 */
-.experiencecolumn{
-    flex: 50%;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.experiencerow{
-    display: flex;
-}
-
-.educationcolumn{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.educationrow{
-    display: flex;
-}
-
-.skillscolumn{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.skillsrow{
-    display: flex;
-}
-
-header{
-    border: 5px solid #7c6885;
-    background-color: #b59fbe;
-    padding: 10px;
-    margin: 0;
-    width: 600px;
-    height: 15px;
-    font-size: 20px;
-    text-align: center; margin: auto;
-}
+    body {
+        background-color: #e5d4ed;
+        color: #000000;
+        font-family: linotype-didot, serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 1em;
+        margin: 0;
+    }
+    
+    h1{
+        font-family: linotype-didot, serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    h2{
+        font-family: linotype-didot-headline, serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    h3{
+        font-family: linotype-didot, serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    h4{
+        font-family: linotype-didot, serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    h5{
+        font-family: linotype-didot, serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+    
+    h6{
+        font-family: linotype-didot, serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    
+    .nav {
+        background-color:#b59fbe;
+        border: 5px solid #7c6885;
+        height: 30px;
+        width: 900px;
+        padding: .5em;
+        top: 0;
+        position: sticky;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      
+    .nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        justify-content: space-evenly;
+        font-size: 30px;
+        display: flex;
+    }
+      
+    .nav a {
+        color: #7c6885;
+        text-decoration: none;
+        padding: .5em 1em;
+    }
+    
+    .heading{
+        border: 5px solid #7c6885;
+        background-color: #b59fbe;
+        padding: 10px;
+        margin-top: 30px;
+        width: 1280px;
+        height: 60px;
+        font-size: 60px;
+        text-align: center; margin: auto;
+    }
+    
+    a:link {
+        color: #b59fbe;
+    }
+      
+    a:visited {
+        color: #7c6885;
+    }
+      
+    a:hover {
+        color: #fff;
+    }
+    
+    hr {
+        border-top: 3px solid #7c6885;
+    }
+    
+    /* page 1 */
+    .image1 {
+        border: 2px solid #7c6885;
+        float: left;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    .homeicons{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 10px;
+        padding-top: 15px;
+        border: none;
+    }
+    
+    .main{
+        font-size: 35px;
+        text-align: left;
+        margin-left: 100px;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 600px;
+    }
+    
+    /* page 2 */
+    .introduction{
+        background-color: #e5d4ed;
+        color: #000000;
+        font-family: linotype-didot, serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 1em;
+        margin: 0;
+    }
+    
+    .image2 {
+        border: 2px solid #7c6885;
+        float: right;
+        margin-left: 10px;
+    }
+    
+    /* page 3 */
+    .column {
+        flex: 50%;
+        padding: 0 4px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+    
+    img {
+        border: 3px solid #7c6885;
+        margin: auto;
+        align-items: center;
+      }
+    
+    /* page 4 */
+    .experiencecolumn{
+        flex: 50%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .experiencerow{
+        display: flex;
+    }
+    
+    .educationcolumn{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    .educationrow{
+        display: flex;
+    }
+    
+    .skillscolumn{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    .skillsrow{
+        display: flex;
+    }
+    
+    header{
+        grid-area: c d;
+        border: 5px solid #7c6885;
+        background-color: #b59fbe;
+        padding: 10px;
+        margin: 0;
+        width: 600px;
+        height: 15px;
+        font-size: 20px;
+        text-align: center; margin: auto;
+    }
+    }
