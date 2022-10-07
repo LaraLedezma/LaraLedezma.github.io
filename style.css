@@ -185,9 +185,9 @@
     }
     
     .educationcolumn{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
+        flex: 50%;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     
     .educationrow{
@@ -195,9 +195,9 @@
     }
     
     .skillscolumn{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
+        flex: 50%;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     
     .skillsrow{
