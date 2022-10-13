@@ -10,11 +10,11 @@ function randomValueFromArray(array){
 var storyText =
     "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
 
-var insertx = ["Dwayne The Rock Johnson", "Kris Jenner", "Lady Gaga"];
+let insertx = ["Dwayne The Rock Johnson", "Kris Jenner", "Danny DeVito"];
 
-var inserty = ["Universal Studios", "Japan", "Nobu"];
+let inserty = ["Universal Studios", "Japan", "Nobu"];
 
-var insertz = ["began to lay down in the street", "started to hop around like a bunny", "fanned themselves aggressively"];
+let insertz = ["began to lay down in the street", "started to hop around like a bunny", "fanned themselves aggressively"];
 
 randomize.addEventListener('click', result);
 
@@ -34,15 +34,16 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
+
     newStory = newStory.replace('Bob', name);
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
-    var stonesPerPound = 0.0714286;
-    var weight = Math.round(300*stonesPerPound)+' stone';
-    var temperature =  Math.round((94-32)*5/9)+' centigrade';
+    let stonesPerPound = 0.0714286;
+
+    let weight = Math.round(300*stonesPerPound)+' stone';
+    let temperature =  Math.round((94-32)*5/9)+' centigrade';
+
     newStory = newStory.replace("94 farenheit", temperature);  
     newStory = newStory.replace("300 pounds", weight); 
 
