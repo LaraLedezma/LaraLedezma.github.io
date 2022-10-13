@@ -34,15 +34,14 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-
     newStory = newStory.replace('Bob', name);
   }
 
   if(document.getElementById("uk").checked) {
     let stonesPerPound = 0.0714286;
 
-    let weight = Math.round(300*stonesPerPound)+' stone';
-    let temperature =  Math.round((94-32)*5/9)+' centigrade';
+    let weight = Math.round(300*stonesPerPound)+ 'stone';
+    let temperature =  Math.round((94-32)*5/9)+ 'centigrade';
 
     newStory = newStory.replace("94 farenheit", temperature);  
     newStory = newStory.replace("300 pounds", weight); 
