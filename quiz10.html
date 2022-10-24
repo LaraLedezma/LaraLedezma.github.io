@@ -45,19 +45,19 @@
       for (let l= 0; l< catsParsed.length; l++) {
         for (const kitten of catsParsed[l].kittens) {
             total++;
-        if (kitten.gender === 'm') {
+      if (kitten.gender === 'm') {
             male++;
         }
-    }
+      }
 
-        if (l < (catsParsed.length - 1)) {
-            motherInfo += `${catsParsed[l].name}, `;
-        } else {
-            motherInfo += `and ${catsParsed[l].name}.`;
+      if (l < (catsParsed.length - 1)) {
+        motherInfo += `${catsParsed[l].name}, `;
+      } else {
+        motherInfo += `and ${catsParsed[l].name}.`;
         }
-    }
+      }
 
-     kittenInfo = `Total kittens: ${total}, Male kittens: ${male}, Female kittens: ${total-male}`
+      kittenInfo = `Total kittens: ${total}, Male kittens: ${male}, Female kittens: ${total-male}`
 
       para1.textContent = motherInfo;
       para2.textContent = kittenInfo;
