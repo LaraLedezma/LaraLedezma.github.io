@@ -42,9 +42,7 @@ var AnnaJSON =
     "raiseEligibl" : true, 
      }
 var Anna = JSON.parse(AnnaJSON)
-
 humanresources.employees.push(Anna)
-
 console.log(humanresources.employees)
 // Part 3
 
@@ -52,10 +50,28 @@ var totalSalary = 0
 for(var x=0; x< humanresources.employees.length; x++){
     totalSalary += humanresources.employees[x].salary
 }
-
 console.log(totalSalary)
 // Part 4
 
 function updateSalary(employees){
-
+    for(var x= 0; x< employees.length; x++){
+        if(employees[x].raiseEligible == true){
+            employees[x].salary = employees[x].salary * 1.1
+            employees[x].raiseEligible = false
+        }
+    }
 }
+updateSalary(humanresources.employees)
+console.log(humanresources.employees)
+// Part 5
+
+wfh = ['Anna', 'Sam']
+for(var x= 0; x< humanresources.employees.length; x++){
+    if(wfh.indexOf(humanresources.employees[x].firstName) >= 0){
+        humanresources.employees[x].wfh = true
+    } else {
+        humanresources.employees[x].wfh = false    
+    }
+}
+console.log(humanresources.employees)
+// Part 6
