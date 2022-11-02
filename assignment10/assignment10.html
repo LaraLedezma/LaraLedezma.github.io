@@ -17,59 +17,6 @@
 
       </section>
 
-      <script>
-        async function populate() {
-          const requestURL = 'assignment10.json';
-          const request = new Request(requestURL);
-
-          const response = await fetch(request);
-          const humanresourcesText = await response.text();
-
-          const humanresources = JSON.parse
-          (humanresourcesText);
-
-          console.log(humanresources);
-          //Part 2
-
-          console.log(humanresources.employees);
-          //Part 1
-          
-          update (newEmployee in humanresources.employees); {
-            firstName = "Anna",
-            department = "Tech",
-            designation = "Manager",
-            salary = 40000,
-            raiseEligible = true,
-            wfh = true 
-          };
-          console.log(newEmployee)
-          //Part 3
-
-          for (let i=0; i<4; i++){
-            CurrentEmployee=humanresources.employees[i];
-
-            Salary= salary + CurrentEmployee.salary;
-          }
-         console.log(Salary);
-          // Part 4
-        
-          function percIncrease(salary) {
-            let percent;
-              if(raiseEligible = true) {
-                  percent = salary * 10;
-                }
-          }
-          console.log(raiseEligible)
-          //Part 5
-
-          update(humanresources);{
-            wfhArray [true] = {"Anna" : "Sam"};
-          }
-          //Part 6
-      
-        }
-        populate()
-
-      </script>
+      <script src="assignment10.js"></script>
   </body>
 </html>
