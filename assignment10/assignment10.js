@@ -27,11 +27,11 @@ var humanresourcesJSON =
     ]
 }
 
-console.log(humanresources.employees);
-// Part 1
-
 console.log(humanresources);
 // Part 2
+
+console.log(humanresources.employees);
+// Part 1
 
 var AnnaJSON = 
     {
