@@ -27,7 +27,7 @@ var humanresourcesJSON =
     ]
 }
 
-console.log(humanresources);
+console.log(humanresourcesJSON);
 // Part 2
 
 console.log(humanresources.employees);
