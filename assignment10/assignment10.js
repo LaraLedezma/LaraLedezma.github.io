@@ -1,4 +1,4 @@
-var humanresourcesJSON = 
+var humanresources = 
 {
     "companyName":"Tech Stars",
     "website":"www.techstars.site",
@@ -27,7 +27,7 @@ var humanresourcesJSON =
     ]
 }
 
-console.log(humanresourcesJSON);
+console.log(humanresources);
 // Part 2
 
 console.log(humanresources.employees);
