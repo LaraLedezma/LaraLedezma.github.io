@@ -4,7 +4,7 @@ quoteButton.addEventListener('click', getQuote);
 const endpoint = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random';
 
 async function getQuote(){
-    //consolee.log('text click worked')
+    //console.log('text click worked')
     let text = await fetch (endpoint);
     let response = await text.text();
 
