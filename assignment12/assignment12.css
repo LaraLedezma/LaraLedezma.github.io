@@ -1,0 +1,55 @@
+form {
+    background-color: #e5d4ed;
+    color: #000000;
+    font-family: linotype-didot, serif;
+}
+
+body {
+    margin: 10px; 
+    border: 8px solid #b59fbe; 
+    background-color: #7c6885; 
+    color: #fff; 
+    font-weight: bold; 
+    padding: 10px;
+    display: inline-block; 
+    font-size: 16pt;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 280px;
+    margin-top: 280px;
+}
+  
+.yes-button {
+    font-size: 15.5pt; 
+    font-family: linotype-didot, serif;
+    background-color: #fff;
+    border: 4px solid #b59fbe;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.no-button {
+    font-size: 15.5pt; 
+    font-family: linotype-didot, serif;
+    background-color: #fff;
+    border: 4px solid #b59fbe;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.output {
+    font-size: 15.5pt; 
+    font-family: linotype-didot, serif;
+    background-color: #fff;
+    border: 4px solid #b59fbe;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
