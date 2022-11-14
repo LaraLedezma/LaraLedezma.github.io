@@ -3,7 +3,7 @@ function check() {
 }
 
 function yes() {
-    alert(output.textContent);
+    alert('This Is Your Phone Number!');
 }
 
 function Random() {
