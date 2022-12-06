@@ -115,11 +115,31 @@
         margin-top: 10px;
     }
     
-    .homeicons{
+    .homeicon1{
         margin-right: 20px;
         margin-left: 20px;
-        margin-top: 10px;
-        padding-top: 15px;
+        margin-top: 100px;
+        border: none;
+    }
+
+    .homeicon2{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    .homeicon3{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    .homeicon4{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
         border: none;
     }
     
@@ -174,35 +194,6 @@
       }
     
     /* page 4 */
-    .experiencecolumn{
-        flex: 50%;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .experiencerow{
-        display: flex;
-    }
-    
-    .educationcolumn{
-        flex: 50%;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .educationrow{
-        display: flex;
-    }
-    
-    .skillscolumn{
-        flex: 50%;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
-    .skillsrow{
-        display: flex;
-    }
     
     header{
         border: 5px solid #7c6885;
@@ -333,11 +324,31 @@
         margin-top: 10px;
     }
     
-    .homeicons{
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 10px;
-        padding-top: 15px;
+    .homeicon1{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 100px;
+        border: none;
+    }
+
+    .homeicon2{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    .homeicon3{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    .homeicon4{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
         border: none;
     }
     
@@ -391,34 +402,10 @@
       }
     
     /* page 4 */
-    .experiencecolumn{
+    .purpleresume{
         flex: 50%;
         margin-left: 100px;
         margin-right: 100px;
-    }
-    
-    .experiencerow{
-        display: flex;
-    }
-    
-    .educationcolumn{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-    }
-    
-    .educationrow{
-        display: flex;
-    }
-    
-    .skillscolumn{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-    }
-    
-    .skillsrow{
-        display: flex;
     }
     
     header{
