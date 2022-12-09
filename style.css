@@ -173,6 +173,11 @@
     /* page 4 */
 
     /* page 5 */
+    .gossip {
+        font-size: 30px;
+        text-align: center; 
+        margin: auto;
+    }
 
     /*page 6 */
     .slideshow-container {
