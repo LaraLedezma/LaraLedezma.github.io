@@ -176,7 +176,9 @@
     .gossip {
         font-size: 30px;
         text-align: center; 
-        margin: auto;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     /*page 6 */
